@@ -106,7 +106,8 @@
     "shelljs-nodecli": "~0.1.0",
     "sinon": "^1.17.2",
     "temp": "^0.8.3",
-    "through": "^2.3.6"
+    "through": "^2.3.6",
+    "webpack": "^2.2.1"
   },
   "keywords": [
     "ast",

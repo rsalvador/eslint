@@ -776,7 +776,7 @@ target.browserify = function() {
     cat("./node_modules/babel-polyfill/dist/polyfill.js", `${TEMP_DIR}espree.js`, `${BUILD_DIR}eslint.js`).to(`${BUILD_DIR}eslint.js`);
 
     // 8. remove temp directory
-    rm("-r", TEMP_DIR);
+    //rm("-r", TEMP_DIR);
 };
 
 target.checkRuleFiles = function() {
